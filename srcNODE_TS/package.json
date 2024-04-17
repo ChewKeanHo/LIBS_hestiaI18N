@@ -1,10 +1,11 @@
 {
   "name": "hestiai18n",
   "version": "0.0.1",
+  "type": "module",
   "description": "One Peaceful Frontend+Backend Software Library Suite: internationalization (i18n).",
   "scripts": {
     "build": "tsc -p tsconfig-build.json",
-    "test": "tsc -p tsconfig-test.json && jasmine --color --config=tsconfig-test.json"
+    "test": "tsc -p tsconfig-test.json && c8 --config c8rc.json mocha dist/test/**/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -21,15 +22,10 @@
   },
   "homepage": "https://github.com/ChewKeanHo/LIBS_hestiaI18N",
   "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.7",
+    "c8": "^9.1.0",
+    "mocha": "^10.4.0",
     "typescript": "^5.4.5"
-  },
-  "dependencies": {
-    "@types/jasmine": "^5.1.4",
-    "jasmine": "^5.1.0",
-    "jasmine-core": "^5.1.2",
-    "karma-chrome-launcher": "^3.2.0",
-    "karma-coverage": "^2.2.1",
-    "karma-jasmine": "^5.1.0",
-    "karma-jasmine-html-reporter": "^2.1.0"
   }
 }

@@ -1,8 +1,0 @@
-{
-	"compilerOptions": {
-		"outDir": "./dist/hestiaI18N"
-	},
-	"exclude": [
-		"src/**/*.spec.ts"
-	]
-}
