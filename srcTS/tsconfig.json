@@ -1,0 +1,33 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"declaration": false,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"importHelpers": true,
+		"target": "ES2022",
+		"module": "commonJS",
+		"useDefineForClassFields": false,
+		"lib": [
+			"ES2022",
+			"dom"
+		],
+		"types": [
+			"node",
+			"jasmine"
+		]
+	},
+	"include": [
+		"src/**/*.d.ts",
+		"src/**/*.ts"
+	]
+}
