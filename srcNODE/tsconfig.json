@@ -22,7 +22,7 @@
 		],
 		"types": [
 			"node",
-			"mocha"
+			"jasmine"
 		]
 	},
 	"include": [

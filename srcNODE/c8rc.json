@@ -18,5 +18,5 @@
   ],
   "all": true,
   "report-dir": "dist/coverage",
-  "temp-directory": "dist/nyc-output"
+  "temp-directory": "dist/coverage-output"
 }
