@@ -40,6 +40,25 @@ language:
 
 
 
+## Data Source
+
+The libraries are based on numorous data sources:
+
+1. Country SIL (`ISO 3166`)
+   1. Index - https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
+   1. Source - https://www.iso.org/iso-3166-country-codes.html
+2. Languages (`ISO 639`)
+   1. Index - https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
+   2. Source - https://iso639-3.sil.org/code_tables/639/data
+
+Due to geo-political changes, extremely cumbersome, complicated, and high
+sensitivity in nature, wikipedia data sources can be used as a navigation index
+to save time and resources instead of scanning across the Internet. However, its
+actual data source tracking **SHALL BE VERIFIED** before actual use.
+
+
+
+
 ## License
 
 This project is licensed under
